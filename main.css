@@ -254,24 +254,26 @@ footer a:hover {
 .roof {
   position: relative;
   display: flex;
-  width: 19.2rem;
+  width: 100%;
   height: 20px;
   top: -0.3rem;
 }
 .roof-sheet {
-  width: 50%;
+  position: relative;
+  width: 9.6rem;
   height: 0.4rem;
   background-color: #a52a2a;
   z-index: 1;
 }
 .roof-sheet-left {
-  position: relative;
-  right: -0.6rem;
+  position: absolute;
+  left: 0.4rem;
   transform: rotate(-27deg);
 }
+
 .roof-sheet-right {
-  position: relative;
-  left: -0.6rem;
+  position: absolute;
+  right: 0.4rem;
   transform: rotate(27deg);
 }
 .triangle {
@@ -356,6 +358,24 @@ footer a:hover {
   aspect-ratio: 1;
   border-radius: 50%;
   background-color: #ffe4c4;
+}
+
+@media (max-width: 300px) {
+  .roof-sheet {
+    width: 7.9rem;
+    top: -0.3rem;
+  }
+  .roof-sheet-left {
+    position: absolute;
+    left: 0;
+    transform: rotate(-27deg);
+  }
+
+  .roof-sheet-right {
+    position: absolute;
+    right: 0;
+    transform: rotate(27deg);
+  }
 }
 
 /*********************************************************/
