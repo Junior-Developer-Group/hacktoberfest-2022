@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50vmin;
+  }
+  .cat {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 40vmn;
+    width: 60vmin;
+    height: 60vmin;
+    background: #daeaff;
+    border-radius: 50%;
+    margin-top: 10vmin;
+    
+    
+  }
+    
+  
+  .ears {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 0;
+        height: 0;
+        border-left: 50vmin solid transparent;
+        border-right: 50vmin solid transparent;
+        border-bottom: 50vmin solid #daeaff;
+        transform: rotate(180deg);
+        margin-top: -20vmin; 
+   
+  }
+  .innerear {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60vmin;
+        width: 0;
+        height: 0;
+        border-left: 40vmin solid transparent;
+        border-right: 40vmin solid transparent;
+        border-bottom: 30vmin solid #e2ddff;
+      
+  }
+  .eye {
+    position: absolute;
+    width: 8vmin;
+    height: 8vmin;
+    background: black;
+    border-radius: 50%;
+    margin-top: 10vmin;
+    margin-left: -10vmin;
+    box-shadow: 20vmin 0 black;
+  }
+  .nose{
+    position: absolute;
+    width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid black;
+        transform: rotate(180deg);
+        margin-right: -5vmin;
+  }
+  .lmouth{
+        position:absolute;
+        width: 20px;
+        height: 40px;
+        border-radius: 50%;
+        box-shadow: 3px 2px 0 0 black;
+        transform: rotate(-90deg); 
+        margin-top: -2vmin;
+        margin-left: -7vmin;
+  }
+  .rmouth{
+        
+        width: 40px;
+        height: 20px;
+        border-radius: 50%;
+        box-shadow: 3px 2px 0 0 black;
+        transform: rotate(180deg); 
+        margin-top: -6vmin;
+        margin-right: -13vmin;
+  }
+  .meow{
+    width: 120px;
+        height: 80px;
+        background: #eddaff;
+        position: relative;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+      
+  }
+  .meow:before{
+        content: "";
+        position: absolute;
+        right: 100%;
+        top: 26px;
+        width: 0;
+        height: 0;
+        border-top: 13px solid transparent;
+        border-right: 26px solid #eddaff;
+        border-bottom: 13px solid transparent;
+  }
+  h1{
+    font-family:Areil, Helvetica, sans-serif;
+    margin-left:5vmin;
+  }
+  
